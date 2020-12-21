@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app__header > h1 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
+
+.app__dropdown {
+  background-color: #423d3d;
+  color: white !important;
+}
+.app__dropdown .MuiInputBase-root,
+.app__dropdown .MuiSelect-icon {
+  color: white !important;
+}
+.app__left {
+  flex: 0.9;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+.app__right {
+  background-color: #423d3d !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__right .MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.app__graph {
+  flex-grow: 1;
+}
+.app__tableTitle {
+  color: white;
+}
+.app__graphTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+.MuiFormControl-root {
+  background-color: #423d3d !important;
+}
+
+.MuiIconButton-root {
+  color: white !important;
+}
+.MuiFormLabel-root {
+  color: white !important;
+}
+
+.MuiAutocomplete-inputFocused {
+  color: white !important;
+}

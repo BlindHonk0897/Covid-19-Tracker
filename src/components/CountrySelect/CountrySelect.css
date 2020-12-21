@@ -1,0 +1,14 @@
+.Input {
+  background-color: #423d3d !important;
+}
+
+.MuiIconButton-root {
+  color: white !important;
+}
+.MuiFormLabel-root {
+  color: white !important;
+}
+
+.MuiAutocomplete-inputFocused {
+  color: white !important;
+}
